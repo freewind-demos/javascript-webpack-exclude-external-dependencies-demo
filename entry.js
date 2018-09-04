@@ -1,3 +1,5 @@
-require('./index.css')
+const $ = require('jquery')
 
-document.write('The body should have a yellow background color now')
+$(document).ready(function () {
+    $("#main").text("Hello, Webpack (from entry.js)")
+})
